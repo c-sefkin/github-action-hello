@@ -1,9 +1,5 @@
 steps:
-
-- uses: c-sefkin/github-action-hello@main
-
+  - uses: c-sefkin/github-action-hello@main
     with:
-
-  firstname: 'Chris'
-
-
+      # additional parameters (if any)
+      firstname: 'Chris' 
