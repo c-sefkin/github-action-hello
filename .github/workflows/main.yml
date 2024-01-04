@@ -1,5 +1,10 @@
-steps:
-  - uses: c-sefkin/github-action-hello@main
-    with:
-      # additional parameters (if any)
-      firstname: 'Chris' 
+on: push
+jobs:
+  test_job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: c-sefkin/github-action-hello@main
+        with:
+          firstname: 'Chris'
+
