@@ -1,3 +1,7 @@
-npm init
-
-npm install @actions/core
+{
+  "name": "github-action-hello",
+  "version": "1.0.0",
+  "dependencies": {
+    "@actions/core": "^1.2.6"
+  }
+}
