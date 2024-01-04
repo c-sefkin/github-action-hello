@@ -3,7 +3,7 @@ jobs:
   test_job:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses:  actions/checkout@v4.1.1
       - uses: c-sefkin/github-action-hello@main
         with:
           firstname: 'Chris'
