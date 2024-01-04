@@ -6,7 +6,7 @@ try
 
 const firstname = core.getInput('firstname');
 
-console.log('Hello ${firstname}!');
+console.log(`Hello ${firstname}!`);
 
 }
 
