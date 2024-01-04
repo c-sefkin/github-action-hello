@@ -1,0 +1,23 @@
+name: 'Hello World'
+
+description: 'Say hello to someone'
+
+author: 'me'
+
+runs:
+
+  using: 'node16'
+  main: 'index.js'
+
+inputs:
+
+  firstname: 
+  description: 
+  required: true
+  default: 'World'
+
+branding:
+
+  icon: 'message-circle'
+  color: 'orange'
+  
